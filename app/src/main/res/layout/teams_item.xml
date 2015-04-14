@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/teamName"
+        android:padding="5dp"
+        android:textColor="@color/theme_default_text_secondary"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"/>
+
+    <CheckBox
+        android:id="@+id/check"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"/>
+
+</LinearLayout>
